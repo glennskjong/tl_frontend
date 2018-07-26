@@ -1,0 +1,29 @@
+{
+    "root": true,
+    "extends": [
+        "standard",
+        "plugin:vue/recommended"
+    ],
+    "plugins": [
+        "vue"
+    ],
+    "rules": {
+        "linebreak-style": "off",
+        "semi": [
+            "warn",
+            "always"
+        ]
+    },
+    "parser": "vue-eslint-parser",
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 2018,
+        "parser": "babel-eslint"
+    },
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "node": true
+    }
+}
