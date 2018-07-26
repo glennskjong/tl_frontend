@@ -29,7 +29,7 @@ export default {
   methods: {
     getIntersections() {
       axios
-        .get("http://localhost:8888/intersections-between-lists")
+        .get("http://localhost:8888/intersection-between-lists")
         .then(
           response => {
             console.log("Got response");
