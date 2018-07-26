@@ -26,7 +26,6 @@
           >Daily changes</b-nav-item>
                     <b-nav-item
             @click="pushTopListIntersections"
-            hidden
           >Top list intersections</b-nav-item>
                     <b-nav-item
             @click="pushCDF"

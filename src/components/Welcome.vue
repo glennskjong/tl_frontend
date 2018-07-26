@@ -2,7 +2,7 @@
 <div>
   <button type="button" @click="pushMain">See toplists</button> 
   <button :disabled="true" type="button" @click="pushDailyChanges">Daily changes</button> 
-  <button :disabled="true" type="button" @click="pushTopListsIntersection">Top list intersections</button> 
+  <button type="button" @click="pushTopListsIntersection">Top list intersections</button> 
   <button :disabled="true" type="button" @click="pushCDFDomains">CDF</button> 
 </div>
 </template>
