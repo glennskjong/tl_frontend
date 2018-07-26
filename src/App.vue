@@ -1,22 +1,30 @@
 <template>
   <div id="app">
-    <router-view/>
+    <AppNavigation/>
+    <main class="content">
+      <router-view/>
+    </main>
   </div>
 </template>
 
 <script>
+import AppNavigation from "@/components/Navigation";
+
 export default {
-  name: "App"
+  name: "App",
+  components: { AppNavigation }
 };
 </script>
 
 <style>
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+html,
+body {
+  height: 100%;
+}
+
+.content {
+  margin-left: 5%;
+  margin-right: 5%;
+  flex: 1 0 auto;
 }
 </style>
